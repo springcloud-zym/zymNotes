@@ -34,3 +34,6 @@ public final class MD5 {
     }
 
 }
+
+//也可以使用Spring自带的MD5自带加密的工具类
+//String s = DigestUtils.md5DigestAsHex("111111".getBytes());
